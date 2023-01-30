@@ -25,7 +25,7 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
+.timestamps {
   text-align: center;
   border-radius: 15px;
 }
@@ -34,12 +34,15 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  border: #000000 1px solid;
 }
 
-.hour {
+.hourly {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 10px;
+  margin-top: 5px;
 }
 
 .past {
@@ -92,20 +95,7 @@ ul{
   list-style: none;
 }
 
-.timecol{
-display: grid;
-grid-area: timecol;
-}
-
-.todorow{
-display:grid;
-grid-area:todorow;
-margin-left: 10000px
-}
-
-.displayGrid{
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-areas: 
-  timecol todorow;
+.todolist{
+  padding-top: 10px;
+  margin-top: 5px;
 }

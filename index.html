@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    
+
     <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
@@ -33,33 +33,47 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-      <thead class="displayGrid">
-        <tr>
-          <th scope="col" class="timecol">Time</th>
-            <ul class="timestamps">
-              <li>9.00am</li> 
-              <li>10.00am</li> 
-              <li>11.00am</li> 
-              <li>12.00pm</li> 
-              <li>01.00pm</li> 
-              <li>02.00pm</li> 
-              <li>03.00pm</li> 
-              <li>04.00pm</li> 
-              <li>05.00pm</li> 
-            </ul>
-          </tr>
-          <tr class="todorow">
-            <th scope="col">To-Do</th>
-            <ul class="todolist">
-
-              </ul>
-
-          </tr>
-      </thead>
+   
+    <!-- Timeblocks go here -->
+    <div class="displayGrid">
+      <div class="row">
+        
+        <ul class="collumn">
+          <div></div>
+          <th >Time</th>
+          <li class="hourly">9.00am</li> 
+          <li class="hourly">10.00am</li> 
+          <li class="hourly">11.00am</li> 
+          <li class="hourly">12.00pm</li> 
+          <li class="hourly">1.00pm</li> 
+          <li class="hourly">2.00pm</li> 
+          <li class="hourly">3.00pm</li> 
+          <li class="hourly">4.00pm</li> 
+          <li class="hourly">5.00pm</li> 
+        </ul>
+        
+        <ul class="collumn">
+          <div class="todolist1">
+            <th>To-Do</th>
+            <li class="todolist">1</li>
+            <li class="todolist">2</li>
+            <li class="todolist">3</li>
+            <li class="todolist">4</li>
+            <li class="todolist">5</li>
+            <li class="todolist">6</li>
+            <li class="todolist">7</li>
+            <li class="todolist">8</li>
+            <li class="todolist">9</li>
+          </div>
+        </ul>
+      </div> 
+       
+    
+      
+      
     </div>
-
+  </div>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
