@@ -31,6 +31,7 @@ const form9= document.getElementById("form9")
 function UpdatedTime(){
  var HeadingDate= moment().format('MMMM Do YYYY, HH:mm:ss ')
  $('#currentDay').html( "Current Date and Time: "+ HeadingDate )
+ 
 }
 
 
@@ -42,7 +43,7 @@ setInterval(function(){
 var now=moment()
 var time=now.hour()
 
-
+console.log(now)
 
 arr.forEach((value, index) => {
    if (time>index+9) {
@@ -68,63 +69,66 @@ var arr = Array.from( lis )
 
 function input1() {
 
-   localStorage.setItem("9am", JSON.stringify(form1.value));
-   localStorage.getItem("9am")}
-
+   localStorage.setItem("9am", form1.value);
+ 
+}
+document.getElementById("form1").setAttribute("value",localStorage.getItem("9am"))
 saveBtn1.addEventListener("click",input1)
 
 function input2() {
-   localStorage.setItem("10am", JSON.stringify(form2.value));
-   localStorage.getItem('10am')}
-
+   localStorage.setItem("10am", form2.value);
+   
+}
+document.getElementById("form2").setAttribute("value",localStorage.getItem("10am"))
 saveBtn2.addEventListener("click",input2)
 
 
 function input3() {
-   localStorage.setItem("11am", JSON.stringify(form3.value));
-   localStorage.getItem('11am')}
-
+   localStorage.setItem("11am", form3.value);
+   
+}
+   document.getElementById("form3").setAttribute("value",localStorage.getItem("11am"))
 saveBtn3.addEventListener("click",input3)
 
 
 function input4() {
-   localStorage.setItem("12pm", JSON.stringify(form4.value));
-   localStorage.getItem('12pm')}
-
+   localStorage.setItem("12pm", form4.value);
+}
+   document.getElementById("form4").setAttribute("value",localStorage.getItem("12pm"))
 saveBtn4.addEventListener("click",input4)
 
 
 function input5() {
-   localStorage.setItem("1pm", JSON.stringify(form5.value));
-   localStorage.getItem('1pm')}
-
+   localStorage.setItem("1pm", form5.value);
+   }
+   document.getElementById("form5").setAttribute("value",localStorage.getItem("1pm"))
 saveBtn5.addEventListener("click",input5)
 
 
 function input6() {
-   localStorage.setItem("2pm", JSON.stringify(form6.value));
-   localStorage.getItem('2pm')}
-
+   localStorage.setItem("2pm", form6.value);
+   }
+   document.getElementById("form6").setAttribute("value",localStorage.getItem("2pm"))
 saveBtn6.addEventListener("click",input6)
 
 
 function input7() {
-   localStorage.setItem("3pm", JSON.stringify(form7.value));
-   localStorage.getItem('3pm')}
-
+   localStorage.setItem("3pm", form7.value);
+ }
+   document.getElementById("form7").setAttribute("value",localStorage.getItem("3pm"))
 saveBtn7.addEventListener("click",input7)
 
 
 function input8() {
-   localStorage.setItem("4pm", JSON.stringify(form8.value));
-   localStorage.getItem('4pm')}
-
+   localStorage.setItem("4pm", form8.value);
+ }
+   document.getElementById("form8").setAttribute("value",localStorage.getItem("4pm"))
 saveBtn8.addEventListener("click",input8)
 
 
 function input9() {
-   localStorage.setItem("5pm", JSON.stringify(form9.value));
-   localStorage.getItem('5pm')}
-
+   localStorage.setItem("5pm", form9.value);
+}
+   document.getElementById("form9").setAttribute("value",localStorage.getItem("5pm"))
 saveBtn9.addEventListener("click",input9)
 
