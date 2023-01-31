@@ -34,7 +34,7 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
-  border: #000000 1px solid;
+ 
   max-width: 100%;
 }
 
@@ -67,9 +67,12 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-  width:90px;
+  width:100px;
   height: 80px;
  float: inline-end;
+ 
+
+ 
 }
 
 .saveBtn i:hover {
@@ -108,16 +111,27 @@ ul{
 
 .textandsavebtn{
 display:flex;
-justify-content: flex-end;
-margin-bottom:5px
+margin-bottom:5px;
+height: 80px;
+
 }
 
 .textfield{
 width:80%;
-margin-top: 5px;
+margin-right: !important 0;
+
 
 }
 
 .displayGrid{
   max-width: 100%;
+}
+
+.todolist{
+  width:85%;
+  margin: 0% !important;
+}
+
+#colorchange{
+  margin-top:5px;
 }
