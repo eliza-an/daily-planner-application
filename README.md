@@ -42,7 +42,7 @@ This website is quite simple to use. The current time is highlighted in red. The
 
 ## Credits
 
-I would like to give credit to my bootcamp class, all of whom contributed with helpful suggestions and explanations of concepts. I would also like to thank Joel Morley for his helpful discussions and contributions.
+I would like to give credit to my bootcamp class, all of whom contributed with helpful suggestions and explanations of concepts. I would also like to thank Joel Morley (https://github.com/jwmorley73) for his helpful discussions and contributions.
 The assessment crieteria and starter code was provided by Trillogy Skills Bootcamp. 
 
 ## License
