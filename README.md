@@ -21,15 +21,14 @@ The purpose of this bootcamp challenege was to create a daily planner within the
 This challenge was by far the toughest one yet. We were challeneged to use complex javascript and DOM manipulation to construct this page. Due to the time constraints, the code if not as clean as I had hoped for, but it functions well and meets all of the criteria. I really enjoyed doing this task. It really forced me to think about every detail and design of this page. 
 
 
-
-![image](https://user-images.githubusercontent.com/118762745/210459204-dad64684-ca87-4c95-8998-0c7baed9e628.png)
-
+![image](https://user-images.githubusercontent.com/118762745/215908730-d39b6d6e-8363-415e-86ed-356df2b0d9a7.png)
 
 
 
 
 
-Link: https://eliza-an.github.io/Bootstrap-Portfolio/
+
+Link: https://eliza-an.github.io/daily-planner-application/
 
 
 ## Installation
@@ -43,7 +42,7 @@ This website is quite simple to use. The current time is highlighted in red. The
 
 ## Credits
 
-I would like to give credit to my bootcamp class, all of whom contributed with helpful suggestions and explanations of concepts. I would also like to thank Joel morley for his helpful discussions and contributions.
+I would like to give credit to my bootcamp class, all of whom contributed with helpful suggestions and explanations of concepts. I would also like to thank Joel Morley for his helpful discussions and contributions.
 The assessment crieteria and starter code was provided by Trillogy Skills Bootcamp. 
 
 ## License
