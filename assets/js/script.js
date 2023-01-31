@@ -68,67 +68,75 @@ var arr = Array.from( lis )
 
 
 function input1() {
-
+if(form1.value!==null){
    localStorage.setItem("9am", form1.value);
- 
+}
 }
 document.getElementById("form1").setAttribute("value",localStorage.getItem("9am"))
 saveBtn1.addEventListener("click",input1)
 
 function input2() {
+   if(form1.value!==null){
    localStorage.setItem("10am", form2.value);
    
-}
+}}
 document.getElementById("form2").setAttribute("value",localStorage.getItem("10am"))
 saveBtn2.addEventListener("click",input2)
 
 
 function input3() {
+   if(form1.value!==null){
    localStorage.setItem("11am", form3.value);
    
-}
+}}
    document.getElementById("form3").setAttribute("value",localStorage.getItem("11am"))
 saveBtn3.addEventListener("click",input3)
 
 
 function input4() {
+   if(form1.value!==null){
    localStorage.setItem("12pm", form4.value);
-}
+}}
    document.getElementById("form4").setAttribute("value",localStorage.getItem("12pm"))
 saveBtn4.addEventListener("click",input4)
 
 
 function input5() {
+   if(form1.value!==null){
    localStorage.setItem("1pm", form5.value);
-   }
+   }}
    document.getElementById("form5").setAttribute("value",localStorage.getItem("1pm"))
 saveBtn5.addEventListener("click",input5)
 
 
 function input6() {
+   if(form1.value!==null){
    localStorage.setItem("2pm", form6.value);
-   }
+   }}
    document.getElementById("form6").setAttribute("value",localStorage.getItem("2pm"))
 saveBtn6.addEventListener("click",input6)
 
 
 function input7() {
+   if(form1.value!==null){
    localStorage.setItem("3pm", form7.value);
- }
+ }}
    document.getElementById("form7").setAttribute("value",localStorage.getItem("3pm"))
 saveBtn7.addEventListener("click",input7)
 
 
 function input8() {
+   if(form1.value!==null){
    localStorage.setItem("4pm", form8.value);
- }
+ }}
    document.getElementById("form8").setAttribute("value",localStorage.getItem("4pm"))
 saveBtn8.addEventListener("click",input8)
 
 
 function input9() {
+   if(form1.value!==null){
    localStorage.setItem("5pm", form9.value);
-}
+}}
    document.getElementById("form9").setAttribute("value",localStorage.getItem("5pm"))
 saveBtn9.addEventListener("click",input9)
 
