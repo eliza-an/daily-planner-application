@@ -1,87 +1,51 @@
-# Third-Party APIs: Work Day Scheduler
+# Daily Planner Application
+This is the seventh bootcamp challenge. This assignment's goal is to create a functioning daily planner.
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The purpose of this bootcamp challenege was to create a daily planner within the working hours. The assessment criteria were as follows:
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+-Display the current day at the top of the calendar when a user opens the planner.
 
-## User Story
+-Present timeblocks for standard business hours when the user scrolls down.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
- 
-## Acceptance Criteria
+-Color-code each timeblock based on past, present, and future when the timeblock is viewed.
 
-The app should:
+-Allow a user to enter an event when they click a timeblock.
 
-* Display the current day at the top of the calender when a user opens the planner.
- 
-* Present timeblocks for standard business hours when the user scrolls down.
- 
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+-Save the event in local storage when the save button is clicked in that timeblock.
 
-* Save the event in local storage when the save button is clicked in that timeblock.
-
-* Persist events between refreshes of a page
-
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+-Persist events between refreshes of a page.
 
 
-## Grading Requirements
+This challenge was by far the toughest one yet. We were challeneged to use complex javascript and DOM manipulation to construct this page. Due to the time constraints, the code if not as clean as I had hoped for, but it functions well and meets all of the criteria. I really enjoyed doing this task. It really forced me to think about every detail and design of this page. 
 
-This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria plus the following:
+![image](https://user-images.githubusercontent.com/118762745/210459204-dad64684-ca87-4c95-8998-0c7baed9e628.png)
 
-  * Uses a date utility library to work with date and time
 
-### Deployment: 32%
 
-* Application deployed at live URL
 
-* Application loads with no errors
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
+Link: https://eliza-an.github.io/Bootstrap-Portfolio/
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
+## Installation
 
-* Application user interface style is clean and polished
+N/A
 
-* Application resembles the mock-up functionality provided in the homework instructions
 
-### Repository Quality: 13%
+## Usage
 
-* Repository has a unique name
+This website is quite simple to use. The current time is highlighted in red. The past is highlighted in grey and the furutre is highlighted in green. Simply click on a timeslot and write your plans for that hour of the day!
 
-* Repository follows best practices for file structure and naming conventions
+## Credits
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+I would like to give credit to my bootcamp class, all of whom contributed with helpful suggestions and explanations of concepts. I would also like to thank Joel morley for his helpful discussions and contributions.
+The assessment crieteria and starter code was provided by Trillogy Skills Bootcamp. 
 
-* Repository contains multiple descriptive commit messages
+## License
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Please refer to the license in the repo
